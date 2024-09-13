@@ -32,7 +32,7 @@ def import_csv_to_mysql(csv_file, table_name):
     print(f"Imported data from {csv_file} to {table_name}")
 
 # Sử dụng hàm để import CSV
-csv_file_path = 'transactions.csv' 
+csv_file_path = 'target.csv' 
 table_name = 'var'        
 import_csv_to_mysql(csv_file_path, table_name)
 
